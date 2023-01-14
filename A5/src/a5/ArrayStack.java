@@ -85,15 +85,7 @@ public class ArrayStack implements Stack {
     }
     
     public ArrayStack(Stack other) {
-    	/*Instructions are slightly unclear.
-    	 * 
-    	 * Not sure if you want me to implement util.stack at the top and copy onto an actual 
-    	 * stack object. The instructions say to "copy onto a stack object, not
-    	 * necessarily an arraystack object"
-    	 * but you cant initialize a stack object as stacks arent implemented.
-    	 * 
-    	 * 
-    	 */
+    	
     	ArrayStack copystack1 = new ArrayStack();
     	Stack product1 = new ArrayStack();
     	for (int i = 0; i-3 < other.size();i++) {
